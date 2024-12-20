@@ -1,5 +1,8 @@
 {
-  "extends": ["github>aquaproj/aqua-renovate-config:file#2.6.0(.*\\.ya?ml)"],
+  "extends": [
+    "github>aquaproj/aqua-renovate-config:file#2.6.0(.*\\.ya?ml)",
+    "config:recommended"
+  ],
   "packageRules": [
     {
       "automerge": true,
