@@ -1,0 +1,31 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/aqua-yaml.json
+# aqua - Declarative CLI Version Manager
+# https://aquaproj.github.io/
+# checksum:
+#   enabled: true
+#   require_checksum: true
+#   supported_envs:
+#   - all
+registries:
+- type: standard
+  ref: v4.280.0 # renovate: depName=aquaproj/aqua-registry
+packages:
+- name: bitwarden/clients@cli-v2024.12.0
+- name: BurntSushi/ripgrep@14.1.1
+- name: cloudflare/cloudflared@2024.12.2
+- name: ClementTsang/bottom@0.10.2
+- name: docker/cli@v27.4.1
+- name: docker/compose@v2.32.1
+- name: docker/buildx@v0.19.3
+- name: hashicorp/terraform@v1.10.3
+- name: helm/helm@v3.16.4
+- name: helmfile/helmfile@v0.169.2
+- name: helmfile/vals@v0.38.0
+- name: junegunn/fzf@v0.57.0
+- name: kubernetes/kubectl@v1.32.0
+- name: kubernetes-sigs/krew@v0.4.4
+- name: kubernetes-sigs/kind@v0.26.0
+- name: kubernetes-sigs/kubebuilder@v4.3.1
+- name: neovim/neovim@v0.10.2
+- name: sharkdp/bat@v0.24.0
