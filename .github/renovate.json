@@ -2,9 +2,11 @@
   "extends": ["github>aquaproj/aqua-renovate-config:file#2.6.0(.*\\.ya?ml)"],
   "packageRules": [
     {
+      "automerge": true,
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "matchPackageNames": ["aquaproj/aqua-registry"],
       "minimumReleaseAge": "7 days"
-      "automerge": true
     }
   ]
 }
