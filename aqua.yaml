@@ -29,3 +29,4 @@ packages:
 - name: kubernetes-sigs/kubebuilder@v4.3.1
 - name: neovim/neovim@v0.10.2
 - name: sharkdp/bat@v0.24.0
+- name: mikefarah/yq@v4.44.6
