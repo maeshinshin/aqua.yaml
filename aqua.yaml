@@ -30,3 +30,4 @@ packages:
 - name: neovim/neovim@v0.10.3
 - name: sharkdp/bat@v0.24.0
 - name: mikefarah/yq@v4.44.6
+- name: ajeetdsouza/zoxide@v0.9.6
