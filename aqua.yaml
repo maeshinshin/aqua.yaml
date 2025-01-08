@@ -27,6 +27,6 @@ packages:
 - name: kubernetes-sigs/krew@v0.4.4
 - name: kubernetes-sigs/kind@v0.26.0
 - name: kubernetes-sigs/kubebuilder@v4.3.1
-- name: neovim/neovim@v0.10.2
+- name: neovim/neovim@v0.10.3
 - name: sharkdp/bat@v0.24.0
 - name: mikefarah/yq@v4.44.6
