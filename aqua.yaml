@@ -19,7 +19,7 @@ packages:
 - name: docker/compose@v2.33.0
 - name: docker/buildx@v0.19.3
 - name: hashicorp/terraform@v1.10.4
-- name: helm/helm@v3.16.4
+- name: helm/helm@v3.17.1
 - name: helmfile/helmfile@v0.169.2
 - name: helmfile/vals@v0.38.0
 - name: junegunn/fzf@v0.57.0
