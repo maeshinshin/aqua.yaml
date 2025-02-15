@@ -25,7 +25,7 @@ packages:
 - name: junegunn/fzf@v0.60.0
 - name: kubernetes/kubectl@v1.32.2
 - name: kubernetes-sigs/krew@v0.4.4
-- name: kubernetes-sigs/kind@v0.26.0
+- name: kubernetes-sigs/kind@v0.27.0
 - name: kubernetes-sigs/kubebuilder@v4.5.0
 - name: neovim/neovim@v0.10.4
 - name: sharkdp/bat@v0.25.0
